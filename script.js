@@ -225,13 +225,11 @@ function startTypewriter() {
     
     const fullMessage = `Hi,
 
-Happy Birthday!
-
-Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
-
-Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).
-
-I love you so much! 💕`;
+selamat ulang tahun rizka!!
+hari hari berlalu begitu cepat dan
+aku selalu berharap dirimu bisa terus tumbuh dengan baik, tidak perlu tumbuh terlalu cepat mengikuti kebanyakan orang, ambil langkah kecil yang konsisten... lakukan itu
+perlahan-lahan dan dengan hati yang bahagia, maka hal menakjubkan didepan sana akan membuatmu lebih bahagia daripada sebelumnya... aku berharap banyak orang yang mencintaimu dengan tulus sama seperti kau mencintai dirimu sendiri, teruslah menjadi dirimu sendiri dan jangan pernah memuaskan harapan orang lain, lakukan hal yang menyenangkan sebanyak mungkin, jangan mudah sedih, dan terus percaya pada dirimu sendiri karena dirimu adalah satu-satunya hal yang tidak bisa diragukan. rizka di masa lalu tidak akan percaya betapa hebatnya rizka di masa ini, apapun yang akan terjadi didepan nanti, maka biarlah itu terjadi, dan satu lagi semoga masalah yang kau hadapin bisa berakhir,jangan lupa selalu andalkan Tuhan di setiap langkahmu ya
+God bless you 💕.`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -266,7 +264,9 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Cel,<br><br>Happy Birthday!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).<br><br>I love you so much! 💕`;
+            const fullMessage = `Hi,<br><brselamat ulang tahun rizka!!<br><br>hari hari berlalu begitu cepat dan
+aku selalu berharap dirimu bisa terus tumbuh dengan baik, tidak perlu tumbuh terlalu cepat mengikuti kebanyakan orang, ambil langkah kecil yang konsisten... lakukan itu
+perlahan-lahan dan dengan hati yang bahagia, maka hal menakjubkan didepan sana akan membuatmu lebih bahagia daripada sebelumnya... aku berharap banyak orang yang mencintaimu dengan tulus sama seperti kau mencintai dirimu sendiri, teruslah menjadi dirimu sendiri dan jangan pernah memuaskan harapan orang lain, lakukan hal yang menyenangkan sebanyak mungkin, jangan mudah sedih, dan terus percaya pada dirimu sendiri karena dirimu adalah satu-satunya hal yang tidak bisa diragukan. rizka di masa lalu tidak akan percaya betapa hebatnya rizka di masa ini, apapun yang akan terjadi didepan nanti, maka biarlah itu terjadi, dan satu lagi semoga masalah yang kau hadapin bisa berakhir,jangan lupa selalu andalkan Tuhan di setiap langkahmu ya<br><br>God bless you💕`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -322,37 +322,17 @@ function startPhotoShow() {
     // Foto lokal dari folder images
     const photos = [
         {
-            text: 'Our First Date 💕',
             image: './images/photo1.jpg'
         },
         {
-            text: 'Birthday Moment 🎂',
             image: './images/photo2.jpg'
         },
         {
-            text: 'Adventure Time 🌟',
             image: './images/photo3.jpg'
         },
         {
-            text: 'Cozy Together ❤️',
             image: './images/photo4.jpg'
         },
-        {
-            text: 'Sweet Memories 🥰',
-            image: './images/photo5.jpg'
-        },
-        {
-            text: 'Laugh Together 😂',
-            image: './images/photo6.jpg'
-        },
-        {
-            text: 'Perfect Day ☀️',
-            image: './images/photo7.jpg'
-        },
-        {
-            text: 'Love Forever 💖',
-            image: './images/photo8.jpg'
-        }
     ];
     
     console.log('Total photos:', photos.length);
@@ -610,19 +590,19 @@ function loadSpotifyPlaylist(playlistNumber) {
     const playlists = {
         1: {
             // Ganti dengan playlist pertama kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/37i9dQZF1DWYtQSOiZF6hj?si=0b945793c2934ba1',
+            embedUrl: 'https://open.spotify.com/embed/playlist/2PTSYzPTB2DCbhMDAgW5ed?si=cnXYqwNgRGmyvmjCuEKuew',
             name: 'Birthday Special Mix',
             description: 'Lagu-lagu spesial untuk hari istimewa kamu ✨'
         },
         2: {
             // Ganti dengan playlist kedua kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/3gPSenyxZMdB3A54HeEruz?si=6b4dec830d4f4a48',
+            embedUrl: 'https://open.spotify.com/embed/playlist/1qdMJhwhzpEoyGsdp2hRTr?si=bXDK94sVQ1i0PudDQUevaQ',
             name: 'Love Songs Collection',
-            description: 'Koleksi lagu cinta terbaik untuk kita ❤️'
+            description: 'Koleksi lagu favorit mu'
         },
         3: {
             // Ganti dengan playlist ketiga kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/4dlQ4JHE6abxv38aae2HL1?si=95730613199e4dad',
+            embedUrl: 'https://open.spotify.com/embed/playlist/2yQcwvaYOY1OYai9kJLkmw?si=TYleFz1YTxmvFp13nJbvzw',
             name: 'Happy Memories',
             description: 'Lagu-lagu yang mengingatkan kenangan indah 🌟'
         }
@@ -991,7 +971,7 @@ function clearLines() {
         gameLines += linesCleared;
         
         // Scoring system
-        const lineScores = [0, 40, 100, 300, 1200];
+        const lineScores = [0, 50, 100, 300, 1200];
         gameScore += (lineScores[linesCleared] || 0) * gameLevel;
         
         // Level progression
