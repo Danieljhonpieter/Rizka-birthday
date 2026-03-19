@@ -264,7 +264,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi,<br><brselamat ulang tahun rizka!!<br><br>hari hari berlalu begitu cepat dan
+            const fullMessage = `Hi,<br><br>selamat ulang tahun rizka!!<br><br>hari hari berlalu begitu cepat dan
 aku selalu berharap dirimu bisa terus tumbuh dengan baik, tidak perlu tumbuh terlalu cepat mengikuti kebanyakan orang, ambil langkah kecil yang konsisten... lakukan itu
 perlahan-lahan dan dengan hati yang bahagia, maka hal menakjubkan didepan sana akan membuatmu lebih bahagia daripada sebelumnya... aku berharap banyak orang yang mencintaimu dengan tulus sama seperti kau mencintai dirimu sendiri, teruslah menjadi dirimu sendiri dan jangan pernah memuaskan harapan orang lain, lakukan hal yang menyenangkan sebanyak mungkin, jangan mudah sedih, dan terus percaya pada dirimu sendiri karena dirimu adalah satu-satunya hal yang tidak bisa diragukan. rizka di masa lalu tidak akan percaya betapa hebatnya rizka di masa ini, apapun yang akan terjadi didepan nanti, maka biarlah itu terjadi, dan satu lagi semoga masalah yang kau hadapin bisa berakhir,jangan lupa selalu andalkan Tuhan di setiap langkahmu ya<br><br>God bless you💕`;
             messageContent.innerHTML = fullMessage;
